@@ -101,11 +101,11 @@ span {
   color: var(--OCEAN, #404bbf);
 }
 
-.link-studio {
+.navigation-active {
   color: var(--OCEAN, #404bbf);
 }
 
-.link-studio::after {
+.navigation-active::after {
   content: "";
   width: 48px;
   height: 4px;
@@ -116,30 +116,6 @@ span {
   position: absolute;
   bottom: -1px;
 }
-
-/* .navigation-list-item {
-  position: relative;
-} */
-
-/* .link-portfolio:hover::after {
-  content: "";
-  width: 66px;
-  height: 4px;
-  background-color: var(--OCEAN, #404bbf);
-  border-radius: 2px;
-  flex-shrink: 0;
-  display: block;
-} */
-
-/* .link-contact:hover::after {
-  content: "";
-  width: 67px;
-  height: 4px;
-  background-color: var(--OCEAN, #404bbf);
-  border-radius: 2px;
-  flex-shrink: 0;
-  display: block;
-} */
 
 .address {
   font-style: normal;
@@ -196,6 +172,7 @@ span {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-title-button {
@@ -271,8 +248,6 @@ span {
   background: var(--CLOUD, #f4f4fd);
   height: 112px;
   margin-bottom: 8px;
-  padding-top: 24px;
-  padding-left: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -441,17 +416,6 @@ span {
   padding: 32px 16px;
 }
 
-/* .our-portfolio-addtext-container {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
-  background: var(--IRIS, #4d5ae5);
-  transform: translateY(100%);
-  transition: transform 300ms; */
-
 .our-portfolio-addtext {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
@@ -470,23 +434,6 @@ span {
   position: relative;
   overflow: hidden;
 }
-/* .our-portfolio-wrap {
-  position: relative;
-}
-
-.our-portfolio-addtext {
-  position: absolute;
-  color: var(--CLOUD, #f4f4fd);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  background-color: var(--IRIS, #4d5ae5);
-  position: absolute;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
@@ -544,11 +491,6 @@ span {
 .footer-social-media-item {
   width: 40px;
   height: 40px;
-  /* background-color: var(--IRIS, #4d5ae5);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .footer-social-media-link {
@@ -571,6 +513,4 @@ span {
   width: 24px;
   height: 24px;
   fill: #f4f4fd;
-  /* max-width: 100%;
-  max-height: 100%; */
 }
